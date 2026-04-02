@@ -34,8 +34,8 @@ Weak passwords are the #1 cause of account breaches. This auditor helps individu
 | Level | Score | Example |
 |-------|-------|---------|
 | Very Weak | 0–2 | `123456`, `password` |
-| Weak | 3–4 | `tanya123`, `Summer2020` |
-| Moderate | 5–6 | `TanyaV@2024` |
+| Weak | 3–4 | `manya123`, `Summer2020` |
+| Moderate | 5–6 | `manyaV@2024` |
 | Strong | 7 | `Tr0ub4dor&3` |
 | Very Strong | 8 | `T$r4&uB8#mL2!qP9` |
 
@@ -70,8 +70,8 @@ python password_security_auditor.py
 
 ```
 [████████] Very Strong | Entropy: 104.2 bits | Xp7@Lm#9Kz$2Wn5!
-[█████░░░] Moderate    | Entropy:  52.1 bits | T@nya#2024!
-[██░░░░░░] Weak        | Entropy:  28.5 bits | tanya123
+[█████░░░] Moderate    | Entropy:  52.1 bits | M@nya#2024!
+[██░░░░░░] Weak        | Entropy:  28.5 bits | manya123
 [░░░░░░░░] Very Weak   | Entropy:  18.9 bits | Admin@123
 ```
 
